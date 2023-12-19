@@ -1,7 +1,7 @@
 public class Skeleton extends Boss {
     private int arrowsAmmount;
 
-    public Skeleton(int health, int damage, java.lang.String entityName, WeaponType entityWeapon, int arrowsAmmount) {
+    public Skeleton(int health, int damage, String entityName, Weapon entityWeapon, int arrowsAmmount) {
         super(health, damage, entityName, entityWeapon);
         this.arrowsAmmount = arrowsAmmount;
     }
